@@ -8,7 +8,14 @@ python sol.py < input
 ```
 
 ### Getting Input
+```
+import sys
+input = sys.stdin.readline
+arr = map(int, input().split())
+```
 ```python
 map(int, input().split())
 map(int, sys.stdin.readline().split())
 ```
+
+
